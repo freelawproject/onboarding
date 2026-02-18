@@ -89,3 +89,25 @@ LONG_API_URL = "https://..."
 ```
 
 Code is a precision-based art form. Suppressing warnings hides problems.
+
+## Accessibility (A11y)
+
+Accessibility is critical in all code we write. We target **WCAG 2.2 AA** standards.
+
+This means:
+
+- Semantic HTML elements (`<nav>`, `<main>`, `<button>`, not `<div onclick>`)
+- Proper ARIA labels where semantic HTML isn't sufficient
+- Keyboard navigability for all interactive elements
+- Sufficient color contrast ratios
+- Alt text for images, labels for form inputs
+
+Don't treat accessibility as a nice-to-have or a follow-up ticket. Build it in from the start.
+
+## Internationalization (i18n)
+
+Check for language translations associated with your changes. If you add or modify user-facing strings, make sure the corresponding translation files are updated. Don't assume English-only — if the project has i18n set up, use it.
+
+## Keep Tests and Docs in Sync
+
+When you change code, check whether tests or documentation need to be updated too. A feature change without a test update is incomplete. A public API change without a docs update leaves users guessing.

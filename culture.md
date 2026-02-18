@@ -45,4 +45,6 @@ When in doubt, bias toward action. It's easier to iterate on something that exis
 | Code-level questions | PR comments or GitHub Discussions |
 | HR, policies, time off | [HR repo](https://github.com/freelawproject/hr) or Slack |
 
-No question is too basic. We'd rather you ask than spend hours stuck.
+No question is too basic. There are no dumb questions here — it's better to speak up and learn than to stay quiet and stay stuck.
+
+**Timebox before asking for help.** If you're stuck, give it 30–60 minutes, then ask a teammate or set up a pairing session. Burning hours alone on something a 5-minute conversation could solve isn't productive — it's just stubbornness.

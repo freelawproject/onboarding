@@ -58,6 +58,19 @@ refactor(courts): extract jurisdiction lookup into utility
 
 The scope is optional but helpful for larger repos.
 
+## Branch Protection
+
+- **No one can push directly to `main`** — all changes go through PRs
+- **Force pushes**: use `--force-with-lease` instead of `--force` on feature branches. It prevents overwriting a teammate's work if they pushed to your branch.
+
+```bash
+# Safe force push
+git push --force-with-lease origin my-branch
+
+# Never do this
+git push --force origin my-branch
+```
+
 ## Push Early and Often
 
 Push your branch to the remote frequently. This:
@@ -67,6 +80,8 @@ Push your branch to the remote frequently. This:
 - Makes it easier to ask for help
 
 Don't wait until the code is "perfect" to push.
+
+**Before pushing**, run your local checks (pre-commit, linting, formatting, tests) to minimize CI failures. Fixing things locally is faster than waiting for the pipeline.
 
 ## Pull Requests
 
@@ -78,11 +93,14 @@ Don't wait until the code is "perfect" to push.
 
 ### Review Process
 
-1. Open a PR and assign reviewer(s)
-2. The main reviewer becomes the PR **assignee**
-3. Reviewer comments → reassigns to you
-4. You address feedback → reassign back to reviewer
-5. Repeat until approved
+All PRs require at least one review before merging.
+
+1. Open a PR and **assign** it to your requested reviewer — assignment signals "this is ready for you to look at"
+2. Reviewer reviews → leaves feedback or approves → **reassigns to PR owner**
+3. PR owner addresses feedback → **reassigns back to reviewer**
+4. Repeat until approved
+
+**Heads up on notifications:** When you add a reviewer, paste the PR link directly to them in Slack as a courtesy. We get a lot of email from GitHub and it's easy for notifications to get buried.
 
 Key norms:
 
@@ -96,6 +114,18 @@ Key norms:
 - Include screenshots for UI changes
 - No force pushes during review (it breaks the diff history)
 - Respond to every comment, even if just with a thumbs up
+- **Be direct and honest** — clear feedback helps everyone improve. Don't soften a real concern into something that can be ignored.
+- **Don't take critical feedback personally** — a comment on your code is not a comment on your character. We're all here to make the code better.
+
+## CI/CD
+
+Every PR triggers a CI pipeline that runs:
+
+- **Linting** (ruff, ESLint, etc.)
+- **Formatting** checks
+- **Test suite**
+
+All checks must pass before merging. Run these locally first (see [Pre-Commit Hooks](#pre-commit-hooks)) to avoid waiting on CI for things you could have caught on your machine.
 
 ## Deploys
 
