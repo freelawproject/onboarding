@@ -12,11 +12,11 @@ Everything we build is public. Our repos, issues, PRs, and discussions are open 
 
 We're a distributed team. Async is the default, not a compromise. You don't owe anyone an immediate response, and nobody owes you one. Get to messages during your next working block and trust that others will do the same.
 
-**Never apologize for not being available.** "Sorry it took me so long, I was off yesterday" is exactly the culture we don't want. You were off. That's the whole story. Set your Slack status proactively so people know, and move on.
+**You never need to apologize for being offline.** "Sorry it took me so long, I was off yesterday" — you don't need to say that here. You were off, and that's completely fine. Set your Slack status proactively so people have context, and pick up where you left off.
 
 ### Keep knowledge in the open
 
-We're an open-source org — our communication culture should match. GitHub is the paper trail. Decisions, context, and technical discussions belong in issues and PRs where they're searchable, public, and permanent. Don't bury knowledge in a Slack thread or email chain where it disappears.
+We're an open-source org — our communication culture should match. GitHub is the paper trail. Decisions, context, and technical discussions belong in issues and PRs where they're searchable, public, and permanent. That way everyone benefits, including future teammates and the broader community.
 
 - **GitHub Issues/PRs (preferred)** — Work items, technical discussions, decisions, anything someone might need to find later. This is the permanent record.
 - **Slack** — Quick questions, social chat, day-to-day coordination. Ephemeral by nature — if something important comes out of a Slack conversation, move it to an issue or PR.
@@ -55,7 +55,7 @@ Beyond that, structure your day however works for you. Early bird, night owl, mi
 ### Meeting culture
 
 - **Default to async first.** Before scheduling a meeting, ask: could this be a Slack thread or GitHub issue? If yes, do that instead.
-- **Meetings need agendas.** No agenda, no meeting. Respect people's time.
+- **Meetings need agendas.** Even a few bullet points help everyone come prepared and make the best use of the time together.
 - **Summarize outcomes.** Decisions from calls go into the relevant issue or PR so nobody has to have been there to stay informed.
 - **Record when practical** so teammates in different schedules can catch up.
 
@@ -67,7 +67,7 @@ Our development philosophy follows three stages, in order:
 2. **Right** - Make it correct. Clean up the code, handle edge cases, add tests.
 3. **Fast** - Make it performant. Optimize only after it works and is correct.
 
-Don't skip ahead. Premature optimization wastes time. Untested "fast" code is tech debt.
+Each stage builds on the last. A working solution gives you confidence to refactor, and clean code gives you confidence to optimize.
 
 ## How Decisions Get Made
 
@@ -86,6 +86,6 @@ When in doubt, bias toward action. It's easier to iterate on something that exis
 | Code-level questions          | PR comments or GitHub Discussions                        |
 | HR, policies, time off        | [HR repo](https://github.com/freelawproject/hr) or Slack |
 
-No question is too basic. There are no dumb questions here — it's better to speak up and learn than to stay quiet and stay stuck.
+No question is too basic. We all started somewhere, and asking early often saves everyone time.
 
-**Timebox before asking for help.** If you're stuck, give it 30–60 minutes, then ask a teammate or set up a pairing session. Burning hours alone on something a 5-minute conversation could solve isn't productive — it's just stubbornness.
+**Timebox before asking for help.** If you're stuck, give it 30–60 minutes, then reach out to a teammate or set up a pairing session. A 5-minute conversation can often unblock hours of solo debugging — and that's a win for the whole team.

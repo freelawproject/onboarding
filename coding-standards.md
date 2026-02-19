@@ -88,7 +88,7 @@ If a warning is genuinely a false positive, document why in the comment:
 LONG_API_URL = "https://..."
 ```
 
-Code is a precision-based art form. Suppressing warnings hides problems.
+Taking the time to understand warnings leads to better, more reliable code.
 
 ## Accessibility (A11y)
 
@@ -102,7 +102,7 @@ This means:
 - Sufficient color contrast ratios
 - Alt text for images, labels for form inputs
 
-Don't treat accessibility as a nice-to-have or a follow-up ticket. Build it in from the start.
+Building accessibility in from the start is much easier than retrofitting it later, and it makes the product better for everyone.
 
 ## Internationalization (i18n)
 

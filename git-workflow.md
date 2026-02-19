@@ -67,7 +67,7 @@ The scope is optional but helpful for larger repos.
 # Safe force push
 git push --force-with-lease origin my-branch
 
-# Never do this
+# Avoid this — it can overwrite a teammate's commits
 git push --force origin my-branch
 ```
 
@@ -75,7 +75,7 @@ git push --force origin my-branch
 
 Push your branch to the remote frequently. This:
 
-- Saves your work (your laptop is not a backup)
+- Keeps your work safe on the remote
 - Lets teammates see what you're working on
 - Makes it easier to ask for help
 
@@ -114,7 +114,7 @@ Key norms:
 - Include screenshots for UI changes
 - No force pushes during review (it breaks the diff history)
 - Respond to every comment, even if just with a thumbs up
-- **Be direct and honest** — clear feedback helps everyone improve. Don't soften a real concern into something that can be ignored.
+- **Be direct and honest** — clear, specific feedback helps everyone improve and builds trust over time.
 - **Don't take critical feedback personally** — a comment on your code is not a comment on your character. We're all here to make the code better.
 
 ## CI/CD
@@ -142,4 +142,4 @@ The workflow:
 3. `git add` the fixed files
 4. `git commit` again
 
-> **Warning:** Don't use `--no-verify` to skip hooks. The hooks exist to catch real issues. If a hook is broken, fix it or raise it with the team.
+> **Tip:** If a hook is giving you trouble, fix the underlying issue or raise it with the team. Skipping hooks with `--no-verify` means the same issue will likely come up in CI.
