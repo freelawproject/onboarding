@@ -10,13 +10,54 @@ Everything we build is public. Our repos, issues, PRs, and discussions are open 
 
 ## Async-First Communication
 
-We're a distributed team. Default to asynchronous communication:
+We're a distributed team. Async is the default, not a compromise. You don't owe anyone an immediate response, and nobody owes you one. Get to messages during your next working block and trust that others will do the same.
 
-- **Slack** for quick questions and social chat
-- **GitHub Issues** for work items and technical discussions
-- **PRs** for code-level conversations
+**Never apologize for not being available.** "Sorry it took me so long, I was off yesterday" is exactly the culture we don't want. You were off. That's the whole story. Set your Slack status proactively so people know, and move on.
 
-Write things down. If a decision happens in a call, summarize it in the relevant issue or PR so everyone has context.
+### Keep knowledge in the open
+
+We're an open-source org — our communication culture should match. GitHub is the paper trail. Decisions, context, and technical discussions belong in issues and PRs where they're searchable, public, and permanent. Don't bury knowledge in a Slack thread or email chain where it disappears.
+
+- **GitHub Issues/PRs (preferred)** — Work items, technical discussions, decisions, anything someone might need to find later. This is the permanent record.
+- **Slack** — Quick questions, social chat, day-to-day coordination. Ephemeral by nature — if something important comes out of a Slack conversation, move it to an issue or PR.
+- **Email** — External contacts, HR, things that don't fit Slack or GitHub.
+
+If a decision happens in a call or Slack thread, summarize it in the relevant issue or PR. The standard is: someone who wasn't in the conversation should be able to find and understand the decision later.
+
+### Urgency escalation
+
+Not everything is the same priority. Use the right level:
+
+1. **Async (default)** — Post in Slack, email, or GitHub. The other person gets to it during their working hours. No expectation of a fast reply. This covers 95% of communication.
+2. **Bump** — Need an answer and it's been a day or so? Send a friendly nudge. This is normal and encouraged — it's not passive-aggressive, it's good communication. "Hey, just bumping this when you get a chance" is always fine.
+3. **Urgent** — Something is actively blocking you or a deadline is real and imminent. Say so clearly: "Need this by EOD" or "Blocked on X, can you take a look today?" If you can't reach someone, escalate to your manager — that's what they're there for.
+4. **Emergency** — Production is down, security incident, something is on fire. Call or text your manager directly. This is the only tier where phone contact is expected.
+
+If you're the one sending a message, **state the urgency up front.** "No rush" and "need by EOD" are both useful signals. Absence of a signal means async.
+
+### Flex your day
+
+We trust you to manage your own time. The expectations are simple:
+
+- **Get your work done.** Deliver on your commitments.
+- **Make your meetings.** Be present when the team needs synchronous time.
+- **Put in your hours.** How you distribute them across the day is up to you.
+
+Beyond that, structure your day however works for you. Early bird, night owl, midday gym break, school pickup at 3pm — all fine. You don't need to justify your schedule.
+
+### Signal availability, don't explain absence
+
+- **Use your Slack status.** "Heads down," "Out today," "Back at 2pm" — a quick status saves everyone from wondering.
+- **Block focus time on your calendar** so meetings don't eat your deep work.
+- **Turn off notifications outside your hours.** This is expected, not rude. Nobody should feel pressure to monitor Slack on evenings, weekends, or days off.
+- **If you'll be slow to respond,** a quick heads-up helps: "Deep in a refactor today, slow on Slack." That's a courtesy, not an obligation.
+
+### Meeting culture
+
+- **Default to async first.** Before scheduling a meeting, ask: could this be a Slack thread or GitHub issue? If yes, do that instead.
+- **Meetings need agendas.** No agenda, no meeting. Respect people's time.
+- **Summarize outcomes.** Decisions from calls go into the relevant issue or PR so nobody has to have been there to stay informed.
+- **Record when practical** so teammates in different schedules can catch up.
 
 ## Work, Right, Fast
 
