@@ -2,19 +2,19 @@
 
 ## Internal
 
-| Resource | Link | What's There |
-|----------|------|-------------|
-| HR Handbook | [freelawproject/hr](https://github.com/freelawproject/hr) | Policies, vacation, benefits, parental leave |
-| CourtListener Wiki | [CL Wiki](https://github.com/freelawproject/courtlistener/wiki) | Project-specific dev setup, architecture |
-| claude-starter | [freelawproject/claude-starter](https://github.com/freelawproject/claude-starter) | Claude Code config, skills, hooks |
+| Resource           | Link                                                                              | What's There                                 |
+| ------------------ | --------------------------------------------------------------------------------- | -------------------------------------------- |
+| HR Handbook        | [freelawproject/hr](https://github.com/freelawproject/hr)                         | Policies, vacation, benefits, parental leave |
+| CourtListener Wiki | [CL Wiki](https://github.com/freelawproject/courtlistener/wiki)                   | Project-specific dev setup, architecture     |
+| claude-starter     | [freelawproject/claude-starter](https://github.com/freelawproject/claude-starter) | Claude Code config, skills, hooks            |
 
 ## Communication
 
-| Channel | Purpose |
-|---------|---------|
-| Slack | Daily communication, quick questions, social |
+| Channel       | Purpose                                      |
+| ------------- | -------------------------------------------- |
+| Slack         | Daily communication, quick questions, social |
 | GitHub Issues | Work tracking, bug reports, feature requests |
-| GitHub PRs | Code review, technical discussion |
+| GitHub PRs    | Code review, technical discussion            |
 
 ## HR Policies
 

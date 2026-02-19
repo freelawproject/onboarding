@@ -65,12 +65,12 @@ Use [factory_boy](https://factoryboy.readthedocs.io/) (or similar) to create tes
 
 Templates should be dumb. Logic belongs in **models** or **JavaScript**, not in views or templates.
 
-| Layer | Responsibility |
-|-------|----------------|
-| **Models** | Business logic, computed properties, data transformation |
-| **Views** | Orchestration only — fetch data, call model methods, render |
-| **Templates** | Display only — loops, simple show/hide conditionals |
-| **JavaScript** | Client-side interactivity and state |
+| Layer          | Responsibility                                              |
+| -------------- | ----------------------------------------------------------- |
+| **Models**     | Business logic, computed properties, data transformation    |
+| **Views**      | Orchestration only — fetch data, call model methods, render |
+| **Templates**  | Display only — loops, simple show/hide conditionals         |
+| **JavaScript** | Client-side interactivity and state                         |
 
 ### Django Templates
 

@@ -33,26 +33,26 @@ Start there to get a solid baseline configuration, then customize to your prefer
 
 ## Key Shortcuts
 
-| Shortcut | What it does |
-|----------|-------------|
-| **Shift + Tab** | Toggle modes — Normal, Planning, Accept Edits |
-| **ESC + ESC** | Interrupt / bail out |
-| **`/help`** | List available commands |
-| **`/init`** | Create a project CLAUDE.md |
-| **`/clear`** | Clear conversation context |
-| **`/compact`** | Compress conversation to save context |
-| **`claude --continue`** (`-c`) | Resume your last session |
-| **`claude --resume`** (`-r`) | Pick from recent sessions |
+| Shortcut                       | What it does                                  |
+| ------------------------------ | --------------------------------------------- |
+| **Shift + Tab**                | Toggle modes — Normal, Planning, Accept Edits |
+| **ESC + ESC**                  | Interrupt / bail out                          |
+| **`/help`**                    | List available commands                       |
+| **`/init`**                    | Create a project CLAUDE.md                    |
+| **`/clear`**                   | Clear conversation context                    |
+| **`/compact`**                 | Compress conversation to save context         |
+| **`claude --continue`** (`-c`) | Resume your last session                      |
+| **`claude --resume`** (`-r`)   | Pick from recent sessions                     |
 
 ## CLAUDE.md Conventions
 
 Claude Code reads `CLAUDE.md` files for project context and instructions. They layer:
 
-| Level | Location | Purpose |
-|-------|----------|---------|
-| **Global** | `~/.claude/CLAUDE.md` | Personal preferences, universal tooling |
-| **Project** | `<repo>/CLAUDE.md` | Project-specific conventions, architecture, commands |
-| **Local** | `<repo>/.claude/CLAUDE.md` | Team-shared skills and overrides (committed to repo) |
+| Level       | Location                   | Purpose                                              |
+| ----------- | -------------------------- | ---------------------------------------------------- |
+| **Global**  | `~/.claude/CLAUDE.md`      | Personal preferences, universal tooling              |
+| **Project** | `<repo>/CLAUDE.md`         | Project-specific conventions, architecture, commands |
+| **Local**   | `<repo>/.claude/CLAUDE.md` | Team-shared skills and overrides (committed to repo) |
 
 ### What Goes Where
 

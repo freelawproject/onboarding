@@ -33,19 +33,19 @@ type(scope?): description
 
 ### Valid Types
 
-| Type | Purpose |
-|------|---------|
-| `feat` | New feature |
-| `fix` | Bug fix |
-| `docs` | Documentation only |
-| `style` | Formatting, whitespace (no logic change) |
-| `refactor` | Code restructuring (no behavior change) |
-| `perf` | Performance improvement |
-| `test` | Adding or updating tests |
-| `build` | Build system or dependencies |
-| `ci` | CI/CD configuration |
-| `chore` | Maintenance tasks |
-| `revert` | Reverting a previous commit |
+| Type       | Purpose                                  |
+| ---------- | ---------------------------------------- |
+| `feat`     | New feature                              |
+| `fix`      | Bug fix                                  |
+| `docs`     | Documentation only                       |
+| `style`    | Formatting, whitespace (no logic change) |
+| `refactor` | Code restructuring (no behavior change)  |
+| `perf`     | Performance improvement                  |
+| `test`     | Adding or updating tests                 |
+| `build`    | Build system or dependencies             |
+| `ci`       | CI/CD configuration                      |
+| `chore`    | Maintenance tasks                        |
+| `revert`   | Reverting a previous commit              |
 
 ### Examples
 
