@@ -9,3 +9,7 @@ These are onboarding docs for new teammates. Keep the tone **welcoming and posit
 - Avoid snark, sarcasm, or language that implies the reader would do the wrong thing
 - "This helps because..." over "Don't do X because..."
 - Direct is good; harsh is not
+
+## Formatting
+
+Run `prettier --write *.md` before committing. No pre-commit hook — just run it manually.
