@@ -14,37 +14,7 @@ Recommended terminal: [iTerm2](https://iterm2.com/) with [oh-my-zsh](https://ohm
 
 ## Git Configuration
 
-### FLP Email
-
-Use `includeIf` in your `~/.gitconfig` to automatically set your FLP email for repos in your FLP directory:
-
-```gitconfig
-# ~/.gitconfig
-[user]
-    name = Your Name
-    email = personal@example.com
-
-[includeIf "gitdir:~/flp/"]
-    path = ~/.gitconfig-flp
-```
-
-```gitconfig
-# ~/.gitconfig-flp
-[user]
-    email = you@free.law
-```
-
-This way, FLP repos get your FLP email and personal repos get your personal email, automatically.
-
-### Global Hooks
-
-FLP uses a shared hooks directory at `~/.git-hooks/`. Set it as your global hooks path:
-
-```bash
-git config --global core.hooksPath ~/.git-hooks/
-```
-
-See [Git Workflow](git-workflow.md) for details on pre-commit hooks.
+SSH keys, gitconfig, global hooks, and more are covered in the dedicated [Git Setup](git-setup.md) guide. Complete that setup before cloning any FLP repos.
 
 ## Python
 
