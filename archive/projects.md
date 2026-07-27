@@ -65,7 +65,7 @@ FLP's website and blog.
 
 Policies, handbook, and HR documentation.
 
-- **Repo**: [freelawproject/hr](https://github.com/freelawproject/hr)
+- **Wiki**: [HR section of the wiki](https://wiki.free.law/c/hr)
 
 See [Resources](resources.md) for direct links to specific policies.
 

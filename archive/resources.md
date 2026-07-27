@@ -4,7 +4,7 @@
 
 | Resource           | Link                                                                              | What's There                                 |
 | ------------------ | --------------------------------------------------------------------------------- | -------------------------------------------- |
-| HR Handbook        | [freelawproject/hr](https://github.com/freelawproject/hr)                         | Policies, vacation, benefits, parental leave |
+| HR Handbook        | [Wiki handbook](https://wiki.free.law/c/hr/handbook)                              | Policies, vacation, benefits, parental leave |
 | CourtListener Wiki | [CL Wiki](https://github.com/freelawproject/courtlistener/wiki)                   | Project-specific dev setup, architecture     |
 | claude-starter     | [freelawproject/claude-starter](https://github.com/freelawproject/claude-starter) | Claude Code config, skills, hooks            |
 
@@ -18,7 +18,7 @@
 
 ## HR Policies
 
-The [HR repo](https://github.com/freelawproject/hr) contains:
+The [HR section of the wiki](https://wiki.free.law/c/hr) contains:
 
 - Employee handbook
 - Vacation and time-off policy
