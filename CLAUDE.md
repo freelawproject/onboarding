@@ -12,4 +12,4 @@ These are onboarding docs for new teammates. Keep the tone **welcoming and posit
 
 ## Formatting
 
-Run `prettier --write *.md` before committing. No pre-commit hook — just run it manually.
+Run `prettier --write "**/*.md"` before committing — quoted so prettier expands the glob and recurses into subdirectories. No pre-commit hook — just run it manually.

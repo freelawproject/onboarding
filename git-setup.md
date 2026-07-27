@@ -285,7 +285,7 @@ Create `~/.gitmessage` with:
 #   - Use the body to explain what and why vs. how
 ```
 
-See [Git Workflow](git-workflow.md#conventional-commits) for the full guide on commit types and examples.
+See [Conventional Commits](https://www.conventionalcommits.org/) for the full guide on commit types and examples.
 
 ## Global Hooks
 
@@ -304,4 +304,4 @@ Global hooks (`core.hooksPath`) and repo-level hooks serve different purposes:
 - **Global hooks** (`~/.git-hooks/`) — Run for every repo. Our `commit-msg` hook lives here.
 - **Repo hooks** (`pre-commit` tool) — Run per-repo linters and formatters. Installed via `pre-commit install` in each repo.
 
-Both run on commit. The repo-level `pre-commit` hook runs first (formatting, linting), then the global `commit-msg` hook validates your message. See [Dev Environment](dev-environment.md#linting-and-formatting) for pre-commit setup.
+Both run on commit. The repo-level `pre-commit` hook runs first (formatting, linting), then the global `commit-msg` hook validates your message. Each repo's own setup docs cover installing its `pre-commit` hooks — see [Day One](day-one.md#6-clone-your-repo-and-bootstrap).

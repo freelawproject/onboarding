@@ -14,7 +14,7 @@ Recommended terminal: [iTerm2](https://iterm2.com/) with [oh-my-zsh](https://ohm
 
 ## Git Configuration
 
-SSH keys, gitconfig, global hooks, and more are covered in the dedicated [Git Setup](git-setup.md) guide. Complete that setup before cloning any FLP repos.
+SSH keys, gitconfig, global hooks, and more are covered in the dedicated [Git Setup](../git-setup.md) guide. Complete that setup before cloning any FLP repos.
 
 ## Python
 
