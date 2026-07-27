@@ -91,11 +91,17 @@ A few working norms: read AI-generated code before you commit it, run the tests 
 
 ## 6. Clone your repo and bootstrap
 
-Your manager will tell you which repo you're starting in. Clone it with your FLP host alias so the right SSH key is used:
+Your manager will tell you which repo you're starting in. Clone it over SSH, using whichever host you configured in step 2:
 
 ```bash
+# Multi-account setup — the host alias picks your FLP key
 git clone git@github.com-flp:freelawproject/<repo>.git
+
+# Single GitHub account — plain host, no alias
+git clone git@github.com:freelawproject/<repo>.git
 ```
+
+Using the alias when you didn't set one up gives you `Could not resolve hostname github.com-flp`. If you see that, you want the plain-host form.
 
 From there, **the repo's own README and wiki are the source of truth** for setup — dependency install, services, environment variables, database seeding. Follow them rather than anything on this page; they're maintained by the people working in that code every day.
 
