@@ -31,7 +31,7 @@ Everything else on the day-one path is self-serve, so fire these off and keep go
 | You are                            | Start with                                                                                         |
 | ---------------------------------- | -------------------------------------------------------------------------------------------------- |
 | A new developer at FLP             | [Day One](day-one.md), top to bottom                                                               |
-| New to FLP, not on the dev team    | [Culture](culture.md) and the [HR handbook](https://github.com/freelawproject/hr)                  |
+| New to FLP, not on the dev team    | [Culture](culture.md) and the [HR wiki](https://wiki.free.law/c/hr)                                |
 | An outside contributor             | Your repo's `CONTRIBUTING.md`, plus [Culture](culture.md) for how we discuss work                  |
 | Already set up, back for reference | [Git Setup](git-setup.md) for config details; your repo's own docs for everything project-specific |
 
@@ -39,7 +39,7 @@ Everything else on the day-one path is self-serve, so fire these off and keep go
 
 - **Project setup** — dependency install, services, environment variables, database seeding: each repo's README and wiki. Those are maintained by the people in that code daily, so they're the source of truth over anything here.
 - **Team mechanics** — board columns, sprint cadence, branch-name shape, deploy flow. These vary by team; your team's repo docs and your onboarding buddy cover them.
-- **HR policies** — the [HR repo](https://github.com/freelawproject/hr): handbook, time off, benefits, parental leave.
+- **HR policies** — the [HR section of the wiki](https://wiki.free.law/c/hr): handbook, time off, benefits, parental leave. You'll need your FLP account to read it.
 
 ## Archive
 

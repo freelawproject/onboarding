@@ -79,12 +79,12 @@ When in doubt, bias toward action. It's easier to iterate on something that exis
 
 ## Where to Ask Questions
 
-| What                          | Where                                                    |
-| ----------------------------- | -------------------------------------------------------- |
-| Quick questions, social chat  | Slack                                                    |
-| Bug reports, feature requests | GitHub Issues on the relevant repo                       |
-| Code-level questions          | PR comments or GitHub Discussions                        |
-| HR, policies, time off        | [HR repo](https://github.com/freelawproject/hr) or Slack |
+| What                          | Where                                          |
+| ----------------------------- | ---------------------------------------------- |
+| Quick questions, social chat  | Slack                                          |
+| Bug reports, feature requests | GitHub Issues on the relevant repo             |
+| Code-level questions          | PR comments or GitHub Discussions              |
+| HR, policies, time off        | [HR wiki](https://wiki.free.law/c/hr) or Slack |
 
 No question is too basic. We all started somewhere, and asking early often saves everyone time.
 

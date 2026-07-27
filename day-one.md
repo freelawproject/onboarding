@@ -128,6 +128,6 @@ You're up and running. From here:
 
 - Read [Culture](culture.md) — how we communicate, how decisions get made, urgency tiers, and flexing your day. It's day-two reading, and worth doing before your first week is out.
 - Skim your repo's `CLAUDE.md` and `CONTRIBUTING.md` if it has them. That's where team-specific conventions live.
-- Check the [HR handbook](https://github.com/freelawproject/hr) for policies, benefits, and time off.
+- Check the [HR section of the wiki](https://wiki.free.law/c/hr) for policies, benefits, and time off.
 
 Anything on this page that didn't hold up for you is a bug in this page. Open an issue or a PR.
