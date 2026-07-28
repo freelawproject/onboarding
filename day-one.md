@@ -139,5 +139,6 @@ You're up and running. From here:
 - Read [Culture](culture.md) — how we communicate, how decisions get made, urgency tiers, and flexing your day. It's day-two reading, and worth doing before your first week is out.
 - Skim your repo's `CLAUDE.md` and `CONTRIBUTING.md` if it has them. That's where team-specific conventions live.
 - Check the [HR section of the wiki](https://wiki.free.law/c/hr) for policies, benefits, and time off.
+- Take the [Foundations of Legal Research](https://elearning.aallnet.org/products/foundations-of-legal-research) course — ask your manager or onboarding buddy about access. Good to knock out sometime in your first week. Take time to actually sit with the material rather than speed-running it — it'll shape how you think about the data our tools work with.
 
 Anything on this page that didn't hold up for you is a bug in this page. Open an issue or a PR.
